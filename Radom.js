@@ -1,7 +1,6 @@
-let arr = ["a", "i", "u", "e", "o", "ka", "ki", "ku", "ke", "ko"];
+let arr = ["so", "se", "su", "si", "sa"];
 
 const ramDum = (ray) => {
-  let numberRandom = Math.floor(Math.random() * 10);
-  console.log(numberRandom);
+  let numberRandom = Math.floor(Math.random() * 5);
   console.log(ray[numberRandom]);
 };
